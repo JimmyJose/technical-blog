@@ -27,8 +27,12 @@ url: "https://jimmyjose.github.io" # the base hostname & protocol for your site,
 twitter_username: jjoseRulez
 github_username:  JimmyJose
 
+author: Jimmy Jose
+
 # Build settings
-theme: minima
+# Commenting out the theme here since we already copied over the required files
+# in out project (_includes, _layouts, _sass, assets)
+# theme: minima
 plugins:
   - jekyll-feed
 
