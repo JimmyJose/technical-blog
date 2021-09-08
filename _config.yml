@@ -23,7 +23,7 @@ email: jose.jimii@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A simple place for blogging any interesting technical problems, like solution to coding problems or discussing system design questions or just any random technical details that interests me.
 baseurl: "/technical-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jimmyjose.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jjoseRulez
 github_username:  JimmyJose
 
