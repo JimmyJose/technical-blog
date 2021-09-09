@@ -48,7 +48,8 @@ Looking at the input we can see that:
     - If the intersection exists, then they have a common ancestor
     - Otherwise, there is no common ancestor
 
-**Note:** We can use a stack datastructure when building the set of all  the ancestors
+**Note:** To determine all the ancestors for a given individual, we essentially perform a BFS (breadth first search).
+We use a stack datastructure.
 
 ### Java code
 {% highlight java %}
