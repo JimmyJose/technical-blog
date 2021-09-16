@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Common Characters Betweem Two Strings Problem"
+title:  "Common Characters Between Two Strings Problem"
 date:   2021-09-16 14:02:00 -0700
 category: CodingProblem
 ---
-Given two strings, determine characters common betweem the two strings and return a comma separated string containing those characters.
+Given two strings, determine characters common between them and return a comma separated string containing those characters.
+
 If there are no characters common between the given strings then return an empty string
 
 **Note:** The characters in the output string can be in any order.
@@ -131,3 +132,10 @@ public String findUniqueCommonCharacters(String candidate1, String candidate2) {
 	}
 {% endhighlight %}
 
+##### Complexity:
+- Time: O(n)
+- Space: O(1)
+
+Where 'n' is the length of the longer input string and 'm' is the length of the other input string.
+
+**Note:** The characters array is of a fixed size (in this example 26) so that is constant space
